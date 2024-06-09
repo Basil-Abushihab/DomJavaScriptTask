@@ -21,17 +21,13 @@ for (let i = 0; i < listArray.length; i++) {
 //Q2
 
 function linearSearch(numberArray, targetNumber) {
-  let isFound = false;
-  let index;
+  let index = -1;
   for (let i = 0; i < numberArray.length; i++) {
     if (parseInt(numberArray[i], 10) == parseInt(targetNumber, 10)) {
-      isFound = true;
       index = i;
-      return index;
     }
-
   }
-  return -1;
+  return index;
 }
 
 console.log(
