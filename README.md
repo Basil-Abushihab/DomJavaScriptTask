@@ -2,7 +2,7 @@
 
 # Description
 
-- This project consists of two main parts:
+- **This project consists of two main parts:**
 
 1. Dynamically adding images to a list in an HTML document.
 2. Implementing a linear search function in JavaScript.
